@@ -1,2 +1,2 @@
-# goit-markup-hw-04
-repo zadania 4
+# goit-markup-hw-02
+repo zadania 2
