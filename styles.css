@@ -138,6 +138,7 @@ body {
   background-color: #2f303a;
   margin: inherit;
   padding-bottom: 30px;
+  background: none;
 }
 
 .button-order-service {
@@ -331,6 +332,12 @@ body {
 }
 .firstsection {
   justify-content: center;
+  background-image: url("/images/imag.jpg");
+  background-color: #2f303a66;
+  object-fit: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .botsection {
   margin-left: 215px;
