@@ -334,6 +334,8 @@ body {
   justify-content: center;
   background-image: url("/images/imag.jpg");
   background-color: #2f303a66;
+  background-size: cover;
+  background-position: center;
   object-fit: cover;
   display: block;
   height: 100%;
@@ -354,11 +356,20 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  transition: all 0.3s;
+}
+
+.figure:hover {
+  transform: scale(1.05);
+}
+.lastfigure:hover {
+  scale: 1.05;
 }
 .lastfigure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  transition: all 0.3s;
 }
 .box {
   background-color: #ffffff;
@@ -422,6 +433,10 @@ body {
 }
 .item {
   flex-basis: calc((100% - 60px) / 3);
+  transition: all 0.3s;
+}
+.item:hover {
+  box-shadow: 1px 4px 6px 0px #00000029;
 }
 .imgwid {
   width: 100%;
