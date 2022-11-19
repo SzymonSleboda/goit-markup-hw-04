@@ -254,7 +254,7 @@ body {
   color: #757575;
   margin: 0px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .nodec {
   text-decoration: none;
@@ -365,6 +365,8 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   transition: all 0.3s;
+  background-color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .figure:hover {
@@ -377,10 +379,15 @@ body {
   transform: scale(1.05);
 }
 .lastfigure {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   transition: all 0.3s;
+  background-color: #ffffff;
+  padding-bottom: 30px;
 }
 .box {
   background-color: #ffffff;
@@ -582,4 +589,28 @@ body {
 }
 .iconbot:hover {
   --color2: #2196f3;
+}
+.icontop {
+  width: 44px;
+  height: 44px;
+}
+.iconstop {
+  padding-left: 0px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 30px;
+}
+.icontop:hover {
+  --color4: #2196f3;
+  --color5: white;
+}
+.socialmedia {
+  width: 206px;
+  height: 44px;
+  margin-left: 32px;
+}
+.mediabox {
+  justify-content: center;
 }
