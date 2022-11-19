@@ -158,6 +158,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: none;
 }
 .mainsec {
   background-color: #2f303a;
@@ -500,6 +501,10 @@ body {
   width: 270px;
   margin-bottom: 30px;
   background: #f5f4fa;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 25px;
+  display: flex;
 }
 .fidgets {
   box-sizing: border-box;
@@ -609,8 +614,12 @@ body {
 .socialmedia {
   width: 206px;
   height: 44px;
-  margin-left: 32px;
 }
 .mediabox {
   justify-content: center;
+  display: flex;
+}
+.mid_icon {
+  width: 70px;
+  height: 70px;
 }
