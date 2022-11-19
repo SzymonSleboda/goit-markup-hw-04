@@ -84,8 +84,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   font-style: normal;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 
   color: #757575;
 }
@@ -98,8 +97,7 @@ body {
   text-align: left;
   font-style: normal;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 
   color: #757575;
 }
@@ -529,4 +527,23 @@ body {
 .fidgets:hover svg {
   --color5: #2196f3;
   --color2: #2196f3;
+}
+.disflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+.navicon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.naviconsec {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.disflex:hover svg {
+  --color3: #2196f3;
 }
