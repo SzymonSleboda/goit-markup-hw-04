@@ -568,3 +568,18 @@ body {
   height: 80px;
   margin-top: 72px;
 }
+.iconbot {
+  width: 44px;
+  height: 44px;
+}
+.iconsbot {
+  padding-left: 0px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  --color2: #ffffff1a;
+}
+.iconbot:hover {
+  --color2: #2196f3;
+}
