@@ -234,7 +234,7 @@ body {
   color: inherit;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .name {
   font-family: inherit;
@@ -367,17 +367,13 @@ body {
   border-radius: 0px 0px 4px 4px;
   transition: all 0.3s;
   background-color: #ffffff;
-  padding-bottom: 30px;
 }
 
 .figure:hover {
-  transform: scale(1.05);
 }
 .lastfigure:hover {
-  scale: 1.05;
 }
 .item:hover {
-  transform: scale(1.05);
 }
 .lastfigure {
   margin-left: 0px;
@@ -388,7 +384,7 @@ body {
   border-radius: 0px 0px 4px 4px;
   transition: all 0.3s;
   background-color: #ffffff;
-  padding-bottom: 30px;
+
 }
 .box {
   background-color: #ffffff;
@@ -453,6 +449,7 @@ body {
 .item {
   flex-basis: calc((100% - 60px) / 3);
   transition: all 0.3s;
+  cursor: pointer;
 }
 .item:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
@@ -517,6 +514,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   display: flex;
+  cursor: pointer;
 }
 .fidgets:hover,
 .fidgets:focus {
@@ -583,6 +581,7 @@ body {
 .iconbot {
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 .iconsbot {
   padding-left: 0px;
@@ -598,6 +597,7 @@ body {
 .icontop {
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 .iconstop {
   padding-left: 0px;
@@ -613,7 +613,6 @@ body {
 }
 .socialmedia {
   width: 206px;
-  height: 44px;
 }
 .mediabox {
   justify-content: center;
@@ -622,4 +621,11 @@ body {
 .mid_icon {
   width: 70px;
   height: 70px;
+}
+.justify_cent {
+  display: flex;
+  justify-content: center;
+}
+.lih {
+  height: 294px;
 }
